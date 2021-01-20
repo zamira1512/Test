@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('https://i.ytimg.com/vi/L05lRSAx4PY/maxresdefault.jpg') center/100% fixed no-repeat;
+  height: 100%;
+  padding: 200px 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  text-align: center;
+  margin-top: 25px;
+  color: darkblue;
+  padding-bottom: 50px;
+}
+.search{
+  width: 100%;
+  height: 30px;
+  padding: 0 10px;
+}
+.formOne{
+
+}
+.completed{
+  text-decoration: line-through;
+}
+.important{
+  font-size: 20px;
+  color: red;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.taskForm {
+  width: 100%;
+  max-width: 500px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.taskName {
+  width: 70%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 30px 0 0 30px;
+  padding: 0  0 0 15px;
+}
+
+.taskAdd {
+  width: 30%;
+  height: 100%;
+  background: aquamarine;
+  border-radius: 0 30px 30px 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.statusList {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.status {
+  width: 150px;
+  cursor: pointer;
+  height: 50px;
+  background: white;
+  color: black;
+  outline: none;
+  border: 1px solid;
+}
